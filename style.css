@@ -1,0 +1,472 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background: #FFFFFF;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+}
+
+header h3 {
+    font-family: 'Plus Jakarta Sans';
+    font-weight: 800;
+    font-size: 28px;
+    line-height: 35px;
+    color: rgba(19, 24, 63, 1);
+}
+
+.header-button {
+    width: 140px;
+    height: 48px;
+    color: #FFFFFF;
+    font-family: 'Plus Jakarta Sans';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    border-radius: 28px;
+    border: none;
+    background: rgba(19, 24, 63, 1);
+    cursor:pointer;
+}
+
+.header-button:hover {
+    background-color: rgba(102, 108, 163, 1);
+}
+
+main {
+    padding: 16px;
+}
+
+.budget-text {
+    display:flex;
+    flex-direction:column;
+    gap:26px;
+}
+
+.budget-text h1 {
+    font-family: 'Plus Jakarta Sans';
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 50px;
+    color: rgba(19, 24, 63, 1);
+}
+
+.budget-text p {
+    font-family: 'Plus Jakarta Sans';
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 26px;
+    color: rgba(131, 134, 154, 1);
+}
+
+.budget-button {
+    height: 56px;
+    width: 167px;
+    font-family: 'Plus Jakarta sans';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #FFFFFF;
+    background: linear-gradient(180deg, #FF6F48, #F02AA6 100%);
+    border-radius: 31px;
+    border: none;
+}
+
+.budget-button:hover {
+cursor:pointer;
+background: linear-gradient(0deg, rgba(255, 255, 255, 0.5),rgba(255, 255, 255, 0.5)), linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+}
+
+.image-container {
+    width: 100%;
+}
+
+
+.hero-img {
+    display: none;
+}
+
+.image-container img {
+    width: 100%;
+}
+
+section{
+    background: linear-gradient(#FFFFFF 100% #F0F1FF 100%);
+}
+
+.card-header {
+    background: linear-gradient(#FFFFFF 100% #F0F1FF 100%);
+    margin-right: 20px;
+    width: 100%;
+    border-radius: 15px;
+    background: linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+}
+
+.card-header h2 {
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 32px;
+    color: #FFFFFF;
+    padding: 24px 29px 32px 28px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 60px;
+    padding: 13px;
+    height: 283px;
+    background: #FFFFFF;
+    box-shadow: 0px 25px 50px rgb(6 22 141 / 4%);
+    border-radius: 15px;
+
+}
+
+.card h4 {
+    font-family: 'Plus Jakarta Sans';
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 25px;
+    color: #13183F;
+    margin: 0;
+}
+
+svg{
+    width: 56px;
+    height: 56px;
+    margin-top: -45px;
+}
+
+.card img {
+    width: 56px;
+    height: 56px;
+    margin-top: -45px;
+}
+
+.card p{
+    font-family: 'Plus Jakarta Sans';
+    font-weight: 500;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 26px;
+    width:286px;
+    color: #83869A;
+}
+
+.card button {
+    border: none;
+    font-family: 'Plus Jakarta Sans';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    color: #F74780;
+    background: #FFFFFF;
+    cursor:pointer;
+}
+
+.card button:hover {
+    color: #FFA7C3;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 88px;
+    background: #13183F;
+    padding: 16px;
+    margin-top: 60px;
+}
+
+footer h3 {
+    font-family: 'Plus Jakarta Sans';
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 28px;
+    line-height: 35px;
+    margin: 0;
+}
+
+footer button {
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    padding: 9px 24px 11px 24px;
+    line-height: 28px;
+    color: #FFFFFF;
+    background: linear-gradient(180deg, #4851FF 0%, #F02AA6 100%);
+    border-radius: 28px;
+    border: none;
+    cursor:pointer;
+   
+}
+
+footer button:hover {
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), linear-gradient(180deg, #4851FF -54.32%, #F02AA6 100%);
+}
+
+
+/*tablet size*/
+/*tablet size */
+/*tablet size*/
+/*tablet size */
+/*tablet size*/
+/*tablet size */
+
+
+
+
+
+@media screen and (min-width: 768px) {
+
+    body {
+    background-image: url(./assets/image-hero-tablet@2x.png);
+    background-repeat: no-repeat;
+    background-position: top -58px right -288px;
+    background-size: 640px 640px;
+    }
+
+  main {  
+    padding: 16px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.hero {
+    display: none;
+}
+
+.budget-text{
+    flex-basis: 50%;
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 200px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.card-header {
+    width: 339px;
+    height: 259px;
+    border-radius: 15px;
+    background: linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+    flex-basis: 44%;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 60px;
+    padding: 13px;
+    height: 242px;
+    background: #FFFFFF;
+    box-shadow: 0px 25px 50px rgb(6 22 141 / 4%);
+    border-radius: 15px;
+    flex-basis: 40%;
+}
+}
+
+
+
+
+/*desktop size*/
+/*desktop size */
+/*desktop size*/
+/*desktop size */
+/*desktop size*/
+/*desktop size*/
+
+
+
+
+
+
+@media screen and (min-width: 1440px) {
+
+    body {
+        background-image: url(./assets/image-hero-desktop.png);
+        background-repeat: no-repeat;
+        background-position: top -84px right -239px;
+        background-size: 882px 772px;
+    }
+
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-left: 165px;
+        padding-right: 165px;
+        margin-bottom:178px;
+    }
+
+    main {
+        padding-left: 165px;
+        padding-right: 165px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    header h3 {
+        font-family: 'Plus Jakarta Sans', sans-serif;
+        font-weight: 800;
+        font-size: 36px;
+        line-height: 45px;
+        color: rgba(19, 24, 63, 1);
+    }
+    
+    .header-button {
+        width: 140px;
+        height: 48px;
+        color: #FFFFFF;
+        font-family: 'Plus Jakarta Sans';
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 28px;
+        border-radius: 28px;
+        border: none;
+        background: rgba(19, 24, 63, 1);
+    }
+
+    .budget-text {
+        display:flex;
+        flex-direction: column;
+        gap:29px;
+    }
+
+    .budget-text h1 {
+        font-family: 'Plus Jakarta Sans';
+        font-weight: 800;
+        font-size: 56px;
+        line-height: 70px;
+        color: rgba(19, 24, 63, 1);
+    }
+
+    .budget-text p {
+        font-family: 'Plus Jakarta Sans';
+        font-weight: 500;
+        color: rgba(131, 134, 154, 1);
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    .budget-button {
+        height: 56px;
+        width: 167px;
+        font-family: 'Plus Jakarta sans-serif';
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 28px;
+        text-align: center;
+        color: #FFFFFF;
+        background: linear-gradient(180deg, #FF6F48, #F02AA6 100%);
+        border-radius: 31px;
+        border: none;
+    }
+
+    section {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 200px;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .card-header {
+       
+        height: 322px;
+        border-radius: 15px;
+        background: linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+        flex-basis: 32%;
+       
+    }
+
+    .card-header h2 {
+        font-family: 'Plus Jakarta Sans';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 32px;
+        line-height: 40px;
+        color: #FFFFFF;
+        margin-top: 28px;
+        padding: 40px;
+      
+    }
+
+    .card {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 60px;
+        padding: 12px;
+        height: 322px;
+        background: #FFFFFF;
+        box-shadow: 0px 25px 50px rgb(6 22 141 / 4%);
+        flex-basis: 28%;
+        border-radius: 15px;
+        justify-content: space-around;
+        align-items: baseline;
+    }
+
+    .card p{
+        font-family: 'Plus Jakarta Sans';
+        font-weight: 500;
+        font-style: normal;
+        font-size: 18px;
+        line-height: 28px;
+        color: #83869A;
+    }
+
+    footer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 88px;
+        padding-left: 165px;
+        padding-right: 165px;
+        background: rgb(19, 24, 63);
+        margin-top: 60px;
+    }
+
+    footer button {
+        font-family: 'Plus Jakarta Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 28px;
+        color: #FFFFFF;
+        background: linear-gradient(180deg, #4851FF 0%, #F02AA6 100%);
+        padding: 9px 24px 11px 24px;
+        border-radius: 28px;
+        border: none;
+        
+    }
+
+     footer h3 {
+        font-family: 'Plus Jakarta Sans';
+        margin:0;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 36px;
+        line-height: 43px;
+        color: #FFFFFF;
+       
+    }
+
+   
+}
