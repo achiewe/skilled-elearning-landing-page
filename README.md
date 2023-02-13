@@ -29,7 +29,7 @@ Users should be able to:
 ![](./assets/1675871032527.jpg)
 
 ### Links
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [https://achiewe.github.io/skilled-elearning-landing-page/]
 
 
 ### Built with
